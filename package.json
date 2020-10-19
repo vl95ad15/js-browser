@@ -1,0 +1,26 @@
+{
+  "name": "js-browser",
+  "version": "1.0.0",
+  "description": "JS with browser",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vl95ad15/js-browser.git"
+  },
+  "author": "Vlad Martsul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vl95ad15/js-browser/issues"
+  },
+  "homepage": "https://github.com/vl95ad15/js-browser#readme",
+  "dependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
+  }
+}
