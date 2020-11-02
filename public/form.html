@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/form.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="/" method="POST" id="form">
+    <div class="content_form">
+      <div class="form_box_grid">
+        <div class="form_h">
+          <h2>Create New Account</h2>
+        </div>
+        <div class="fn"><label for="first_name">First name</label>
+          <input type="text" placeholder="Enter First Name" name="firstName" id="f_name">
+        </div>
+        <div class="ln"><label for="last_name">Last name</label>
+          <input type="text" placeholder="Enter Last Name" name="lastName" id="l_name">
+        </div>
+        <div class="un"><label for="user_name">User name</label>
+          <input type="text" placeholder="Enter User Name" name="userName" id="u_name">
+        </div>
+        <div class="em"><label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" id="email">
+        </div>
+        <div class="dob"><label for="dob">Date of birth</label>
+          <input type="date" name="dateOfBirth" id="dob">
+        </div>
+        <div class="gen">
+          <label for="gender">Gender:</label>
+          <hr>
+          <div><input type="radio" name="gender" id="genderMale" value="male"> Male</div>
+          <div><input type="radio" name="gender" id="genderFemale" value="female"> Female</div>
+          <div><input type="radio" name="gender" id="genderOther" value="other"> Other</div>
+        </div>
+        <div class="pw"><label for="pswd">Password</label>
+          <input type="password" placeholder="Enter Password" name="pswd" id="pswd">
+        </div>
+        <div class="check"><input type="checkbox" name="terms" id="terms"> I've read and agree to the <a href="#">Terms of Service</a>
+        </div>
+        <div class="button"><button type="submit" id="regButton">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="../src/form.js">
+    
+
+  </script>
+</body>
+
+
+
+</html>
